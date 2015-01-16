@@ -1,0 +1,126 @@
+"Delimiters"
+:;{}[](),
+
+"Operators"
++-*/<>&=!|!===>=<=
+
+"Valid Binary"
+0b0
+0b1010
+
+"Invalid Binary"
+0b123
+0bba
+
+"Valid Float"
+123e1
+123e+12;
+123e-12
+123.;
+123e01
+
+"Invalid Float"
+123.e12.12
+00123.123
+
+"Valid Integers"
+0
+123
+-123
++123
+
+"Invalid Integer"
+7abc
+
+"Valid Octal"
+00
+001234567
+
+"Invalid Octal"
+098
+
+"Valid Hexadecimal"
+0x0
+0xa
+0x1
+0x123abc
+0x789ABF
+
+"Invalid Hexadecimal"
+0x
+0x123efg
+0xJAVIER
+
+"Keywords"
+if
+else
+while
+switch
+case
+return
+int
+float
+void
+char
+string
+boolean
+true
+false
+print
+
+"Valid Identifiers"
+If
+Else
+While
+Switch
+Case
+Return
+Int
+Float
+Void
+Char
+String
+Boolean
+True
+False
+Print
+CSE_340
+$123
+_abc
+_
+$
+
+"Invalid Identifiers"
+^asd
+.foo
+2014August
+
+"Valid Strings"
+"Hello"
+"Hello World" "Hello" "World"
+"Hello"+"Hello"
+" "
+"\;\,"
+":;{}[](),"
+"He said 'fufufu'"
+"asdasdasd"""
+
+"Invalid Strings"
+"Hello World This is an error
+
+"Valid Chars"
+'a'
+' '
+'\t'
+'1'
+'!'
+'$'
+'\;'
+'\\'
+
+"Invalid Chars"
+'\'
+'aa'
+'foo
+
+for (int foo = 0; foo < length; foo++){}
